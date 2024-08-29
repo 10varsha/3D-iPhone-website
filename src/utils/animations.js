@@ -13,7 +13,7 @@ export const animateWithGsap = (target, animationProps, scrollPropos) => {
 }
 
 
-export const animateWithGsapTimeLine = (timeline, rotationRef, rotationState, firstTarget, secondTarget, animationProps) => {
+export const animateWithGsapTimeline = (timeline, rotationRef, rotationState, firstTarget, secondTarget, animationProps) => {
   timeline
     .to(rotationRef, {
       rotation: rotationState,
